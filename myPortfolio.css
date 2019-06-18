@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div.navbar-header {
+  display: flex;
+  background-color: rgba(0,0,0,0.7);
+  height: 50px;
+
+}
+
+div.navbar-left {
+  flex-basis: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+p.navbar-left-text {
+  font-size: 25px;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  color: #fff;
+}
+
+ul.navbar-right {
+  margin: auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+ul.navbar-right a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item {
+  float: left;
+  text-align: center;
+  width: 70px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
