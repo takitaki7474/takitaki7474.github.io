@@ -53,6 +53,7 @@ div.container-home {
   align-items: center;
   background-image: url("./images/star-around.jpg");
   background-size: cover;
+  box-shadow: 0 2px 5px 5px #999;
 }
 
 div.cover-white {
@@ -121,4 +122,63 @@ ul.self-introduction li {
 div.main-text p {
   font-size: 20px;
   color: #FFF;
+}
+
+/* skill */
+
+div.container-skills {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px 5px #999;
+
+}
+
+div.skill-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+
+}
+
+div.skill-title {
+  margin-bottom: 50px;
+}
+
+div.skill-title h1 {
+  font-size: 60px;
+}
+
+table.programming-experience {
+  box-shadow: 1px 1px 5px 1px #999;
+  text-align: center;
+  margin: 40px;
+  border-radius: 1%;
+  background-color: #FFF;
+  width: 90%;
+}
+
+table.conference-experience {
+  box-shadow: 1px 1px 5px 1px #999;
+  text-align: center;
+  margin: 40px;
+  border-radius: 1%;
+  background-color: #FFF;
+  width: 90%;
+}
+
+tbody th, tbody td {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 50px;
+
+}
+
+thead th {
+  font-size: 20px;
+  padding-bottom: 20px;
 }
