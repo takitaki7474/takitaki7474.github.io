@@ -32,7 +32,7 @@ a {
 
 /* profile*/
 
-#profile-container {
+#profile {
   background-image: url("./images/star-around.jpg");
   background-size: cover;
   padding-left: 0px;
@@ -45,7 +45,7 @@ a {
   background-color: rgba(225,225,225,0.2);
 }
 
-#profile-container p {
+#profile p {
   color: #FFF;
 }
 
