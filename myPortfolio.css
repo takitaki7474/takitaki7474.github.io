@@ -11,6 +11,11 @@
   text-align: center;
 }
 
+.partition {
+  height: 50px;
+  border: 1px solid #000;
+}
+
 /* nav */
 
 .navbar-dark {
@@ -53,6 +58,9 @@ img#hedgehog {
   font-weight: bold;
   text-align: center;
 }
+
+/*skill*/
+
 
 div.navbar-header {
   display: flex;
