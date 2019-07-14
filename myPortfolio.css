@@ -1,6 +1,14 @@
+/* all */
+
 * {
   margin: 0px;
   padding: 0px;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
 }
 
 /* nav */
@@ -11,6 +19,39 @@
 
 .navbar-brand {
   font-size: 30px;
+}
+
+/* profile*/
+
+#profile-container {
+  background-image: url("./images/star-around.jpg");
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.container-cover {
+  background-size: cover;
+  background-color: rgba(225,225,225,0.2);
+}
+
+#profile-container p {
+  color: #FFF;
+}
+
+img#hedgehog {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px;
+  border: 1px solid #000;
+  height: 200px;
+  width: 200px;
+}
+
+.name {
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
 }
 
 div.navbar-header {
@@ -103,13 +144,7 @@ div.img-and-name {
   align-items: center;
 }
 
-img#hedgehog {
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px;
-  border: 1px solid #000;
-  height: 170px;
-  width: 170px;
-}
+
 
 div.myName p {
   font-weight: bold;
