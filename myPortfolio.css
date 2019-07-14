@@ -71,7 +71,20 @@ img#twitter-hedgehog {
   height: 130px;
   width: 130px;
 }
-/*skill*/
+
+/*footer*/
+
+.footer-list a {
+  margin: 0 7px;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.footer-list p {
+  color: #FFF;
+  margin: 40px auto 0 auto;
+  font-size: 15px;
+}
 
 
 div.navbar-header {
