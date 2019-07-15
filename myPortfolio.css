@@ -6,9 +6,10 @@
 }
 
 .section-title {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: bold;
   text-align: center;
+  word-wrap: break-word;
 }
 
 .partition {
