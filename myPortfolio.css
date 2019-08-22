@@ -66,11 +66,15 @@ img#hedgehog {
 
 /*experience*/
 
-.exp-parent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media screen and (min-width:500px){
+  .exp-parent {
+    margin: auto;
+  }
+  .exp-el{
+     min-width: 500px;
+  }
 }
+
 
 /*contact*/
 img#twitter-hedgehog {
