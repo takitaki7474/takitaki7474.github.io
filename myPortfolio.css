@@ -66,14 +66,11 @@ img#hedgehog {
 
 /*experience*/
 
-@media screen and (min-width:500px){
-  .exp-parent {
-    margin: auto;
-  }
-  .exp-el{
-     min-width: 500px;
-  }
+.exp-el{
+   max-width: 500px;
+   margin: auto;
 }
+
 
 
 /*contact*/
